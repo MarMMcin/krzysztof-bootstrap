@@ -1,7 +1,6 @@
 import React from "react";
 import { Jumbotron as Jumbo, Container } from "react-bootstrap";
 import styled from "styled-components";
-import { createGlobalStyle } from "styled-components";
 
 import boatImage from "../assets/geodezja.jpg";
 
@@ -27,6 +26,7 @@ const Styles = styled.div`
   h1 {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-weight: bold;
+    font-size: 29px;
     color: #e63946;
   }
   p {
@@ -37,12 +37,14 @@ const Styles = styled.div`
 
 export const Jumbotron = () => (
   <Styles>
-    <Jumbo fluid className="jumbo">
-      <div className="overlay"></div>
-      <Container>
-        <h1>Krzysztof Butryn</h1>
-        <p>geodezja oraz wycena nieruchomości</p>
-      </Container>
-    </Jumbo>
+    <div>
+      <Jumbo fluid className="jumbo">
+        <div className="overlay"></div>
+        <Container>
+          <h1>Krzysztof Butryn</h1>
+          <p>geodezja oraz wycena nieruchomości</p>
+        </Container>
+      </Jumbo>
+    </div>
   </Styles>
 );
