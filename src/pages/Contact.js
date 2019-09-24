@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 const Styles = styled.div`
+  * {
+    box-sizing: border-box;
+  }
   h2 {
     text-align: center;
     margin-bottom: 40px;
@@ -18,12 +21,21 @@ const Styles = styled.div`
     font-size: 40px;
     color: #e63946;
     padding-bottom: 22px;
+    transition: 0.2s;
+    cursor: pointer;
+    &:hover {
+      font-size: 60px;
+    }
   }
   a {
     color: black;
     &:hover {
-      color: #1a535c;
+      color: #e63946;
     }
+  }
+  .icon {
+    width: 40px;
+    height: 60px;
   }
 `;
 export const Contact = () => (
@@ -34,7 +46,9 @@ export const Contact = () => (
         <div className="col-sm">
           <div className="d-flex flex-row justify-content-center">
             {" "}
-            <i className="fas fa-phone-alt "></i>
+            <div className="icon">
+              <i className="fas fa-phone-alt "></i>
+            </div>
           </div>
           <p>Telefon: 728 559 ***</p>
           <p>
@@ -44,7 +58,9 @@ export const Contact = () => (
         <div className="col-sm">
           <div className="d-flex flex-row justify-content-center">
             {" "}
-            <i className="far fa-clock"></i>
+            <div className="icon">
+              <i className="far fa-clock"></i>
+            </div>
           </div>
           <p>
             {" "}
@@ -60,7 +76,9 @@ export const Contact = () => (
         <div className="col-sm">
           <div className="d-flex flex-row justify-content-center">
             {" "}
-            <i className="fas fa-map-marker-alt"></i>
+            <div className="icon">
+              <i className="fas fa-map-marker-alt"></i>
+            </div>
           </div>
           <p>
             {" "}
