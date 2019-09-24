@@ -50,7 +50,7 @@ export const Contact = () => (
               <i className="fas fa-phone-alt "></i>
             </div>
           </div>
-          <p>Telefon: 728 559 ***</p>
+          <p className="bold">Telefon: 728 559 ***</p>
           <p>
             <a href="mailto:someone@yoursite.com">krzysztof.butryn@gmail.com</a>
           </p>
@@ -77,7 +77,14 @@ export const Contact = () => (
           <div className="d-flex flex-row justify-content-center">
             {" "}
             <div className="icon">
-              <i className="fas fa-map-marker-alt"></i>
+              {" "}
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.google.pl/maps/place/Na+Barciach+16,+31-422+Kraków/@50.0914499,19.9618018,19z/data=!3m1!4b1!4m5!3m4!1s0x47165aeda3aad2c9:0xc1be97919f37b606!8m2!3d50.0914499!4d19.962349"
+              >
+                <i className="fas fa-map-marker-alt"></i>
+              </a>
             </div>
           </div>
           <p>
