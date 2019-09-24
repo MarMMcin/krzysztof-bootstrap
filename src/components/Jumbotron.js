@@ -41,7 +41,7 @@ export const Jumbotron = () => (
       <div className="overlay"></div>
       <Container>
         <h1>Krzysztof Butryn</h1>
-        <p>rzeczoznawca oraz wycena nierychomosci</p>
+        <p>geodezja oraz wycena nieruchomości</p>
       </Container>
     </Jumbo>
   </Styles>

@@ -21,10 +21,10 @@ const Styles = styled.div`
     font-size: 40px;
     color: #e63946;
     padding-bottom: 22px;
-    transition: 0.2s;
+    transition: 0.2s ease;
     cursor: pointer;
     &:hover {
-      font-size: 60px;
+      transform: scale(1.5);
     }
   }
   a {
