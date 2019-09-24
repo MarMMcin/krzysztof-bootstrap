@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "70728040040a3de1034fbba49c9a099c",
+    "revision": "c4f504868cbb1e0fb576ab1bf9613a79",
     "url": "/krzysztof-bootstrap/index.html"
   },
   {
-    "revision": "eb18e5c96f52dd0a55db",
+    "revision": "335dccf908e3dd4f5b32",
     "url": "/krzysztof-bootstrap/static/css/main.34de6062.chunk.css"
   },
   {
-    "revision": "5d7cbaf92f17a89e90d4",
-    "url": "/krzysztof-bootstrap/static/js/2.3f3ac828.chunk.js"
+    "revision": "3f6616ece675ccfb76f5",
+    "url": "/krzysztof-bootstrap/static/js/2.1cf6dd5f.chunk.js"
   },
   {
-    "revision": "eb18e5c96f52dd0a55db",
-    "url": "/krzysztof-bootstrap/static/js/main.95a12b43.chunk.js"
+    "revision": "335dccf908e3dd4f5b32",
+    "url": "/krzysztof-bootstrap/static/js/main.db8cf6aa.chunk.js"
   },
   {
     "revision": "19edeee7d1de4cf64798",
