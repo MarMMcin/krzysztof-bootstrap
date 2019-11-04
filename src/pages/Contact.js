@@ -65,12 +65,14 @@ export const Contact = () => (
           <p>
             {" "}
             poniedziałek – piątek:
-            <br /> 8.00 – 18.00
+            <br /> 8:00 – 18:00
           </p>
           <p>
             {" "}
-            sobota – niedziela:
-            <br /> nieczynne
+            <p className="bold">
+              sobota – niedziela:
+              <br /> nieczynne
+            </p>
           </p>
         </div>
         <div className="col-sm">

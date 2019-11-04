@@ -1,0 +1,116 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/components/layouts/Page.js":
+/*!****************************************!*\
+  !*** ./src/components/layouts/Page.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "../node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _styles_Page_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/Page.css */ "./src/components/styles/Page.css");
+/* harmony import */ var _styles_Page_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_Page_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _pages_AboutMe__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../pages/AboutMe */ "./src/components/pages/AboutMe.js");
+/* harmony import */ var _pages_MyProjects__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../pages/MyProjects */ "./src/components/pages/MyProjects.js");
+/* harmony import */ var _pages_ContactPage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../pages/ContactPage */ "./src/components/pages/ContactPage.js");
+/* harmony import */ var _pages_MySkills__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../pages/MySkills */ "./src/components/pages/MySkills.js");
+/* harmony import */ var _pages_ErrorPage__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../pages/ErrorPage */ "./src/components/pages/ErrorPage.js");
+var _jsxFileName = "D:\\react\\portfolio2\\src\\components\\layouts\\Page.js";
+
+
+
+
+
+
+
+
+
+
+const Page = () => {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Switch"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/",
+    exact: true,
+    component: _pages_AboutMe__WEBPACK_IMPORTED_MODULE_3__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/products",
+    component: _pages_MyProjects__WEBPACK_IMPORTED_MODULE_4__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/contact",
+    component: _pages_ContactPage__WEBPACK_IMPORTED_MODULE_5__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/skils",
+    component: _pages_MySkills__WEBPACK_IMPORTED_MODULE_6__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    component: _pages_ErrorPage__WEBPACK_IMPORTED_MODULE_7__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: undefined
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["withRouter"])(Page));
+
+/***/ }),
+
+/***/ "./src/components/pages/ErrorPage.js":
+/*!*******************************************!*\
+  !*** ./src/components/pages/ErrorPage.js ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "D:\\react\\portfolio2\\src\\components\\pages\\ErrorPage.js";
+
+
+const ErrorPage = () => {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: undefined
+  }, "Nie ma takiej strony");
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (ErrorPage);
+
+/***/ })
+
+})
+//# sourceMappingURL=main.e4abc5fdb6bdd9c6830c.hot-update.js.map

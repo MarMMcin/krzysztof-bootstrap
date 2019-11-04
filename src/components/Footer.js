@@ -44,10 +44,10 @@ export const Footer = props => (
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/MarMMcin"
+          href="https://github.com/MarMMcin/krzysztof-bootstrap"
         >
           {" "}
-          by: Marcin Magdoń
+          by: Marcin Magdoń <i class="fab fa-github-square"></i>
         </a>
       </p>
     </div>
