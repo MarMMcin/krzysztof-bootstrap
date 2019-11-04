@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c4f504868cbb1e0fb576ab1bf9613a79",
+    "revision": "9ec948f80aa95e4ffcfe8b4c7736055c",
     "url": "/krzysztof-bootstrap/index.html"
   },
   {
-    "revision": "335dccf908e3dd4f5b32",
+    "revision": "40e2628f8879e2b04ccf",
     "url": "/krzysztof-bootstrap/static/css/main.34de6062.chunk.css"
   },
   {
-    "revision": "3f6616ece675ccfb76f5",
-    "url": "/krzysztof-bootstrap/static/js/2.1cf6dd5f.chunk.js"
+    "revision": "3924bddbe042cfc3dcc6",
+    "url": "/krzysztof-bootstrap/static/js/2.7bd9580d.chunk.js"
   },
   {
-    "revision": "335dccf908e3dd4f5b32",
-    "url": "/krzysztof-bootstrap/static/js/main.db8cf6aa.chunk.js"
+    "revision": "40e2628f8879e2b04ccf",
+    "url": "/krzysztof-bootstrap/static/js/main.03f520ac.chunk.js"
   },
   {
-    "revision": "19edeee7d1de4cf64798",
-    "url": "/krzysztof-bootstrap/static/js/runtime-main.a585f619.js"
+    "revision": "0b1938b811d5d0274099",
+    "url": "/krzysztof-bootstrap/static/js/runtime-main.0219e41a.js"
   },
   {
     "revision": "eb54a4dd35168f7013b6026788425a7e",
